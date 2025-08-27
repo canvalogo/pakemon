@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Cards</title>
+  <link rel="stylesheet" href="stayl.css">
+</head>
+<body>
+  <header>
+    <img src="gif-poke.gif.png" alt="Pokemon Logo" class="logo">
+    <div class="search-bar">
+      <input type="text" id="search" placeholder="search your pokemon">
+      <select id="filter">
+        <option value="all">all</option>
+        <option value="fire">fire</option>
+        <option value="grass">grass</option>
+        <option value="water">water</option>
+      </select>
+      <select id="sort">
+        <option value="default">sort</option>
+        <option value="asc">A-Z</option>
+        <option value="desc">Z-A</option>
+      </select>
+      <button id="searchBtn">search</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="card-container" id="cardContainer">
+    
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
